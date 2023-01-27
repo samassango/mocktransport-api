@@ -1,0 +1,19 @@
+{
+    "users":[
+        {"id":1, "userType":"Driver","firstname":"Sibusiso", "lastname":"Massango", "schoolId":[1], "childrensId":[1,2,3] }, 
+        {"id":2, "userType":"Parent","firstname":"Lwandle", "lastname":"Massango", "schoolId": [1], "childrensId":[1,2,3]}
+    ],
+    "childrens":[
+        {"id":1, "userType":"Parent","firstname":"Lwandle", "lastname":"Massango", "schoolId": [1], "address":"herons@riverside"},
+        {"id":2, "userType":"Parent","firstname":"Lwandle2", "lastname":"Massango2", "schoolId": [1], "address":"herons@riverside"},
+        {"id":3, "userType":"Parent","firstname":"Lwandle3", "lastname":"Massango3", "schoolId": [1], "address":"herons@riverside"}
+    ],
+    "schools":[
+        {"id": 1, "name":"Siyamthanda Primary School", "lat":12.00, "lot":-12.00, "driverId":1}
+    ],
+    "status":[
+        {"dropofftime":345466756,"pickup":345456576, "childrenId":1},
+        {"dropofftime":345466756,"pickup":345456576, "childrenId":2},
+        {"dropofftime":345466756,"pickup":345456576, "childrenId":3}
+    ]
+}

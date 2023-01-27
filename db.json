@@ -4,12 +4,12 @@
         {"id":2, "userType":"Parent","firstname":"Lwandle", "lastname":"Massango", "schoolId": [1], "childrensId":[1,2,3]}
     ],
     "childrens":[
-        {"id":1, "userType":"Parent","firstname":"Lwandle", "lastname":"Massango", "schoolId": [1], "address":"herons@riverside"},
-        {"id":2, "userType":"Parent","firstname":"Lwandle2", "lastname":"Massango2", "schoolId": [1], "address":"herons@riverside"},
-        {"id":3, "userType":"Parent","firstname":"Lwandle3", "lastname":"Massango3", "schoolId": [1], "address":"herons@riverside"}
+        {"id":1, "userType":"children","firstname":"Lwandle", "lastname":"Massango", "schoolId": [1], "address":"herons@riverside", "parentId":2},
+        {"id":2, "userType":"children","firstname":"Lwandle2", "lastname":"Massango2", "schoolId": [1], "address":"herons@riverside", "parentId":2},
+        {"id":3, "userType":"children","firstname":"Lwandle3", "lastname":"Massango3", "schoolId": [1], "address":"herons@riverside", "parentId":2}
     ],
     "schools":[
-        {"id": 1, "name":"Siyamthanda Primary School", "lat":12.00, "lot":-12.00, "driverId":1}
+        {"id": 1, "name":"Siyamthanda Primary School", "lat":-25.89874855, "lot":28.09815775, "driverId":1}
     ],
     "status":[
         {"dropofftime":345466756,"pickup":345456576, "childrenId":1},

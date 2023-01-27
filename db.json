@@ -1,12 +1,15 @@
 {
     "users":[
         {"id":1, "userType":"Driver","firstname":"Sibusiso", "lastname":"Massango", "schoolId":[1], "childrensId":[1,2,3] }, 
-        {"id":2, "userType":"Parent","firstname":"Lwandle", "lastname":"Massango", "schoolId": [1], "childrensId":[1,2,3]}
+        {"id":2, "userType":"Parent","firstname":"Lwandle", "lastname":"Massango", "schoolId": [1], "childrensId":[1,2,3]},
+        {"id":3, "userType":"Parent","firstname":"Sizwe", "lastname":"Manzini", "schoolId": [1], "childrensId":[4,5]}
     ],
     "childrens":[
         {"id":1, "userType":"children","firstname":"Lwandle", "lastname":"Massango", "schoolId": [1], "address":"herons@riverside", "parentId":2},
-        {"id":2, "userType":"children","firstname":"Lwandle2", "lastname":"Massango2", "schoolId": [1], "address":"herons@riverside", "parentId":2},
-        {"id":3, "userType":"children","firstname":"Lwandle3", "lastname":"Massango3", "schoolId": [1], "address":"herons@riverside", "parentId":2}
+        {"id":2, "userType":"children","firstname":"Lwandle2", "lastname":"Massango", "schoolId": [1], "address":"herons@riverside", "parentId":2},
+        {"id":3, "userType":"children","firstname":"Lwandle3", "lastname":"Massango", "schoolId": [1], "address":"herons@riverside", "parentId":2},
+        {"id":4, "userType":"children","firstname":"Siya", "lastname":"Manzini", "schoolId": [1], "address":"herons@riverside", "parentId":3},
+        {"id":5, "userType":"children","firstname":"Luke", "lastname":"Manzini", "schoolId": [1], "address":"herons@riverside", "parentId":3}
     ],
     "schools":[
         {"id": 1, "name":"Siyamthanda Primary School", "lat":-25.89874855, "lot":28.09815775, "driverId":1}

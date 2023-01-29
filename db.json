@@ -1,8 +1,8 @@
 {
     "users":[
-        {"id":"cef2934f-472f-44f0-b3ca-0c9a3b51cb0b", "userType":"Driver","firstname":"Sibusiso", "lastname":"Massango", "schoolId":["9a16443c-c0de-478e-b4cf-88fb1877b765"], "childrensId":["913c3dec-a5bd-45df-98db-e8f8fedfba66","7edb3eee-d3f4-4f0f-9c0c-43ea24562d7c","b52fc1b8-b767-4648-a276-29c1c8468e9c"] }, 
-        {"id":"6f58a6a4-1e8a-4462-8c2b-1f927c9a1d8f", "userType":"Parent","firstname":"Lwandle", "lastname":"Massango", "schoolId": ["9a16443c-c0de-478e-b4cf-88fb1877b765"], "childrensId":["913c3dec-a5bd-45df-98db-e8f8fedfba66","7edb3eee-d3f4-4f0f-9c0c-43ea24562d7c","b52fc1b8-b767-4648-a276-29c1c8468e9c"]},
-        {"id":"31aebe32-6961-4aa7-bb7f-56519cc7679e", "userType":"Parent","firstname":"Sizwe", "lastname":"Manzini", "schoolId": ["9a16443c-c0de-478e-b4cf-88fb1877b765"], "childrensId":["e37f43f3-eabb-48bb-ba0f-df9c7d2ee121","66690740-6a7c-4d0b-b2e2-583e5fe1ea04"]}
+        {"id":"cef2934f-472f-44f0-b3ca-0c9a3b51cb0b", "userType":"Driver","firstname":"Sibusiso", "lastname":"Massango", "schoolIds":["9a16443c-c0de-478e-b4cf-88fb1877b765"], "childrensIds":["913c3dec-a5bd-45df-98db-e8f8fedfba66","7edb3eee-d3f4-4f0f-9c0c-43ea24562d7c","b52fc1b8-b767-4648-a276-29c1c8468e9c"] }, 
+        {"id":"6f58a6a4-1e8a-4462-8c2b-1f927c9a1d8f", "userType":"Parent","firstname":"Lwandle", "lastname":"Massango", "schoolIds": ["9a16443c-c0de-478e-b4cf-88fb1877b765"], "childrensIds":["913c3dec-a5bd-45df-98db-e8f8fedfba66","7edb3eee-d3f4-4f0f-9c0c-43ea24562d7c","b52fc1b8-b767-4648-a276-29c1c8468e9c"]},
+        {"id":"31aebe32-6961-4aa7-bb7f-56519cc7679e", "userType":"Parent","firstname":"Sizwe", "lastname":"Manzini", "schoolIds": ["9a16443c-c0de-478e-b4cf-88fb1877b765"], "childrensIds":["e37f43f3-eabb-48bb-ba0f-df9c7d2ee121","66690740-6a7c-4d0b-b2e2-583e5fe1ea04"]}
     ],
     "childrens":[
         {"id":"913c3dec-a5bd-45df-98db-e8f8fedfba66", "userType":"children","firstname":"Lwandle","lat":-25.89874855,"lng":28.00, "lastname":"Massango", "schoolId": "9a16443c-c0de-478e-b4cf-88fb1877b765", "address":"herons@riverside", "parentId":"6f58a6a4-1e8a-4462-8c2b-1f927c9a1d8f"},

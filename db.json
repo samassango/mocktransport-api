@@ -5,12 +5,13 @@
         {"id":"31aebe32-6961-4aa7-bb7f-56519cc7679e", "userType":"Parent","firstname":"Sizwe", "lastname":"Manzini", "schoolIds": ["9a16443c-c0de-478e-b4cf-88fb1877b765"], "childrensIds":["e37f43f3-eabb-48bb-ba0f-df9c7d2ee121","66690740-6a7c-4d0b-b2e2-583e5fe1ea04"]}
     ],
     "childrens":[
-        {"id":"913c3dec-a5bd-45df-98db-e8f8fedfba66", "userType":"children","firstname":"Lwandle","lat":-25.89874855,"lng":28.00, "lastname":"Massango", "schoolId": "9a16443c-c0de-478e-b4cf-88fb1877b765", "address":"herons@riverside", "parentId":"6f58a6a4-1e8a-4462-8c2b-1f927c9a1d8f"},
-        {"id":"7edb3eee-d3f4-4f0f-9c0c-43ea24562d7c", "userType":"children","firstname":"Lwandle2", "lastname":"Massango","lat":-25.89874855,"lng":28.00, "schoolId": "9a16443c-c0de-478e-b4cf-88fb1877b765", "address":"herons@riverside", "parentId":"6f58a6a4-1e8a-4462-8c2b-1f927c9a1d8f"},
-        {"id":"b52fc1b8-b767-4648-a276-29c1c8468e9c", "userType":"children","firstname":"Lwandle3", "lastname":"Massango","lat":-25.89874855,"lng":28.00, "schoolId": "9a16443c-c0de-478e-b4cf-88fb1877b765", "address":"herons@riverside", "parentId":"6f58a6a4-1e8a-4462-8c2b-1f927c9a1d8f"},
-        {"id":"e37f43f3-eabb-48bb-ba0f-df9c7d2ee121", "userType":"children","firstname":"Siya", "lastname":"Manzini","lat":-25.89874855,"lng":28.00, "schoolId": "9a16443c-c0de-478e-b4cf-88fb1877b765", "address":"herons@riverside", "parentId":"31aebe32-6961-4aa7-bb7f-56519cc7679e"},
-        {"id":"66690740-6a7c-4d0b-b2e2-583e5fe1ea04", "userType":"children","firstname":"Luke", "lastname":"Manzini","lat":-25.89874855,"lng":28.00, "schoolId": "9a16443c-c0de-478e-b4cf-88fb1877b765", "address":"herons@riverside", "parentId":"31aebe32-6961-4aa7-bb7f-56519cc7679e"}
+        {"id":"913c3dec-a5bd-45df-98db-e8f8fedfba66", "userType":"children","firstname":"Lwandle","lat":-25.89874855,"lng":28.00, "lastname":"Massango", "schoolId": "9a16443c-c0de-478e-b4cf-88fb1877b765", "address":"herons@riverside", "parentId":"6f58a6a4-1e8a-4462-8c2b-1f927c9a1d8f", "availability":true, "status":"In a bus"},
+        {"id":"7edb3eee-d3f4-4f0f-9c0c-43ea24562d7c", "userType":"children","firstname":"Lwandle2", "lastname":"Massango","lat":-25.89874855,"lng":28.00, "schoolId": "9a16443c-c0de-478e-b4cf-88fb1877b765", "address":"herons@riverside", "parentId":"6f58a6a4-1e8a-4462-8c2b-1f927c9a1d8f", "availability":false, "status":"In a bus"},
+        {"id":"b52fc1b8-b767-4648-a276-29c1c8468e9c", "userType":"children","firstname":"Lwandle3", "lastname":"Massango","lat":-25.89874855,"lng":28.00, "schoolId": "9a16443c-c0de-478e-b4cf-88fb1877b765", "address":"herons@riverside", "parentId":"6f58a6a4-1e8a-4462-8c2b-1f927c9a1d8f", "availability":true, "status":"In a bus"},
+        {"id":"e37f43f3-eabb-48bb-ba0f-df9c7d2ee121", "userType":"children","firstname":"Siya", "lastname":"Manzini","lat":-25.89874855,"lng":28.00, "schoolId": "9a16443c-c0de-478e-b4cf-88fb1877b765", "address":"herons@riverside", "parentId":"31aebe32-6961-4aa7-bb7f-56519cc7679e", "availability":false, "status":"In a bus"},
+        {"id":"66690740-6a7c-4d0b-b2e2-583e5fe1ea04", "userType":"children","firstname":"Luke", "lastname":"Manzini","lat":-25.89874855,"lng":28.00, "schoolId": "9a16443c-c0de-478e-b4cf-88fb1877b765", "address":"herons@riverside", "parentId":"31aebe32-6961-4aa7-bb7f-56519cc7679e", "availability":true, "status":"In a bus"}
     ],
+    "childrenState":["At Home", "In a bus", "In School"],
     "schools":[
         {"id": "9a16443c-c0de-478e-b4cf-88fb1877b765", "name":"Siyamthanda Primary School", "address":"diepsloot" ,"lat":-25.89874855, "lng":28.09815775, "driverIds":["cef2934f-472f-44f0-b3ca-0c9a3b51cb0b"]}
     ],

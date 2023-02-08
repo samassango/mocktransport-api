@@ -13,7 +13,8 @@
     ],
     "children-state":["At Home", "In a bus", "In School"],
     "schools":[
-        {"id": "9a16443c-c0de-478e-b4cf-88fb1877b765", "name":"Siyamthanda Primary School", "address":"diepsloot" ,"lat":-25.89874855, "lng":28.09815775, "driverIds":["cef2934f-472f-44f0-b3ca-0c9a3b51cb0b"]}
+        {"id": "9a16443c-c0de-478e-b4cf-88fb1877b765", "name":"Siyamthanda Primary School", "address":"diepsloot" ,"lat":-25.89874855, "lng":28.09815775, "driverIds":["cef2934f-472f-44f0-b3ca-0c9a3b51cb0b"]},
+        {"id": "f26bcbf9-9bdc-40ef-a150-49731811f82c", "name":"Sicelulwazi Secondary School", "address":"Fourways" ,"lat":-26.0191853, "lng":28.0063041, "driverIds":["cef2934f-472f-44f0-b3ca-0c9a3b51cb0b"]}
     ],
     "status":[
         {"id":"d66a503d-6b6c-406c-8703-ac055ab17d1b","dropofftime":1674831350,"pickup":1674827750, "childrenId":"913c3dec-a5bd-45df-98db-e8f8fedfba66", "driverId":"cef2934f-472f-44f0-b3ca-0c9a3b51cb0b", "schoolId":"9a16443c-c0de-478e-b4cf-88fb1877b765"},
